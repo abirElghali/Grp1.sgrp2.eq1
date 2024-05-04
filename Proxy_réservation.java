@@ -1,6 +1,6 @@
 import java.time.LocalDateTime;
 
-public interface Reservation {
+public interface Reservationg {
     void ajouterReservation(Reservation reservation);
 
     void afficherReservation();
@@ -34,7 +34,9 @@ public class ReservationImpl implements Reservation {
 
     @Override
     public void afficherReservation() {
-        // Logique d'affichage de réservation
+        System.out.println("Date et heure : " + dateHeure);
+        System.out.println("État : " + etat);
+        System.out.println("Nature : " + nature);
     }
 
     @Override
