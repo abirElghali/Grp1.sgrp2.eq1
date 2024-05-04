@@ -115,7 +115,7 @@ public class ReservationController {
         ReservationService reservationService = new ReservationServiceImpl();
 
         // Création du contrôleur de réservation
-        ReservationController reservationController = new ReservationController(reservationService);
+        solid reservationController = new solid(reservationService);
 
         // Création d'une réservation
         Reservation reservation = new ReservationImpl();
