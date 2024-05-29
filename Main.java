@@ -1,3 +1,4 @@
+package test_fact;
 //Interface pour les utilisateurs
 interface Utilisateur {
  void afficherDetails();
